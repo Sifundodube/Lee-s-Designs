@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>Lee's Designs | Professional Tailor & Fashion Designer | Alexandra, Johannesburg</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Lee's Designs</a>
+            <button class="mobile-menu-btn" id="menuBtn">☰</button>
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Lee's Designs</h1>
+            <p class="hero-tagline">Where Style Meets Precision</p>
+            <p>Professional Tailor & Fashion Designer</p>
+            <p class="hero-location">📍 Alexandra Ext 7, Johannesburg</p>
+            <a href="#contact" class="btn-primary">Request a Quote</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>What I Offer</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">👗</div>
+                    <h3>Custom Dresses</h3>
+                    <p>Wedding dresses, evening gowns, bridesmaid dresses, and casual wear made to your exact measurements.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📏</div>
+                    <h3>Alterations & Repairs</h3>
+                    <p>Hemming, taking in, letting out, zipper replacement, and full resizing services.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👔</div>
+                    <h3>Men's Wear</h3>
+                    <p>Suits, shirts, traditional attire, and formal wear tailored perfectly for you.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🪡</div>
+                    <h3>Traditional Attire</h3>
+                    <p>Custom traditional outfits for weddings, ceremonies, and special events.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>My Work</h2>
+            <p class="gallery-subtitle">Browse through some of my latest creations</p>
+            <div class="gallery-grid" id="galleryGrid">
+                <div class="gallery-loading">Loading your beautiful work...</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Contact Details</h3>
+                    <div class="contact-detail">
+                        <span class="contact-icon">📞</span>
+                        <a href="tel:+27610423655">+27 61 042 3655</a>
+                    </div>
+                    <div class="contact-detail">
+                        <span class="contact-icon">💬</span>
+                        <a href="#" id="whatsappLink" class="whatsapp-link">WhatsApp Me</a>
+                    </div>
+                    <div class="contact-detail">
+                        <span class="contact-icon">📍</span>
+                        <span>Alexandra Ext 7, Johannesburg</span>
+                    </div>
+                    <div class="hours">
+                        <h4>Working Hours</h4>
+                        <p>📌 Open 7 Days a Week</p>
+                        <p>Monday - Sunday: 9am - 6pm</p>
+                        <p class="availability-note">✓ Available for urgent requests anytime</p>
+                    </div>
+                    <div class="note">
+                        <p>📸 Send photos for a quick quote</p>
+                        <small>Take a picture of what you need and send via WhatsApp</small>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send a Message</h3>
+                    <form id="contactForm">
+                        <input type="text" placeholder="Your Name" id="name" required>
+                        <input type="email" placeholder="Your Email" id="email">
+                        <input type="tel" placeholder="Your Phone Number" id="phone">
+                        <textarea placeholder="Tell me about what you need (dress, alterations, repairs, etc.)..." rows="5" id="message" required></textarea>
+                        <button type="submit" class="btn-primary">Send via WhatsApp →</button>
+                    </form>
+                    <p class="form-note">You will be redirected to WhatsApp to send your message</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Lee's Designs. All rights reserved.</p>
+            <p>Professional Tailor & Fashion Designer | Alexandra Ext 7, Johannesburg</p>
+            <p>Open 7 Days a Week | WhatsApp for urgent requests</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="#" id="whatsappFloat" class="whatsapp-float" target="_blank">
+        💬
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
